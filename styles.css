@@ -115,6 +115,7 @@ body {
 
 input::placeholder {
     text-align: right;
+    font-style: italic;
 }
 
 ol,
@@ -142,32 +143,39 @@ table {
 }
 
 nav {
-    background-color: steelblue;
+    background-color: #2D3945;
     color: white;
     padding: 40px;
     margin: auto;
     text-align: center;
+    font-weight: bold;
 }
 
 h1 {
     font-family: 'Playfair Display';
     font-size: x-large;
+    font-weight: bold;
 }
 
 h2 {
-    color: steelblue;
+    color: #2D3945;
     padding: 10px;
     font-size: x-large;
+    font-weight: bold;
+}
+
+hr {
+    width: 95%;
 }
 
 .sign-up {
     text-align: center;
-    margin: 40px;
+    margin: 30px;
 }
 
 .contact-info {
     padding: 10px;
-    margin: 5px;
+    margin: 20px 5px 5px 5px;
     border-radius: 3px;
     display: flex;
     flex-direction: column;
@@ -179,7 +187,7 @@ select {
     border-radius: 3px;
     padding: 15px;
     border-style: none;
-    background-color: lightgray;
+    background-color: #EFF0F1;
     margin-bottom: 30px;
 }
 
@@ -188,25 +196,48 @@ label {
 }
 
 .zip {
-    width: 50%;
+    width: 40%;
 }
 
-.newsletter {
+.newsletter div {
     margin: 5px;
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
+    padding: 5px;
+    width: 100%;
 }
 
 button {
     font-family: 'Playfair-Display';
-    background-color: turquoise;
-    padding: 40px;
-    width: 80%;
+    background-color: #4EBBB5;
+    padding: 20px;
+    width: 95%;
     font-size: x-large;
     color: white;
     border-radius: 3px;
     border-style: none;
     display: block;
     margin: 0 auto;
+}
+
+legend p {
+    margin: 10px;
+}
+
+.comment {
+    margin: 0 auto;
+}
+
+textarea {
+    background-color: #EFF0F1;
+    border-radius: 4px;
+    border-style: none;
+    width: 95%;
+    resize: none;
+    margin-top: 10px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0px 50px 0px;
+    font-style: italic;
 }
