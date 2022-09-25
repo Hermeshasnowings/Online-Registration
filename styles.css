@@ -174,7 +174,8 @@ h2 {
 
 }
 
-input {
+input,
+select {
     border-radius: 3px;
     padding: 15px;
     border-style: none;
@@ -186,14 +187,26 @@ label {
     margin: 0px 10px 10px 0px;
 }
 
-.zip {}
+.zip {
+    width: 50%;
+}
 
 .newsletter {
+    margin: 5px;
     display: flex;
     flex-direction: column;
+    padding: 15px;
 }
 
 button {
-    background-color: green;
+    font-family: 'Playfair-Display';
+    background-color: turquoise;
     padding: 40px;
+    width: 80%;
+    font-size: x-large;
+    color: white;
+    border-radius: 3px;
+    border-style: none;
+    display: block;
+    margin: 0 auto;
 }
