@@ -177,12 +177,12 @@ section {
     }
 
     hr {
-        border-top: #2D3945 3px solid;
+        border: #2D3945 1px solid;
 
     }
 
     hr.new {
-        border-bottom: #2D3945 5px solid;
+        border: #2D3945 3px solid;
     }
 
     .sign-up {
