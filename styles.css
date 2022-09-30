@@ -124,6 +124,7 @@ section {
 
     :focus {
         outline: #2D3945 3px solid;
+        transition: all 0.5s ease-out;
     }
 
     ol,
@@ -190,9 +191,8 @@ section {
     .contact-info {
         margin: 20px 5px 5px 5px;
         border-radius: 3px;
-        display: flex;
         flex-direction: column;
-
+        display: flex;
     }
 
     input,
@@ -209,7 +209,7 @@ section {
     }
 
     .zip {
-        width: 40%;
+        width: 50%;
     }
 
     .newsletter {
@@ -260,5 +260,9 @@ section {
     main {
         max-width: 500px;
         margin: 0 auto;
+    }
+
+    .zip {
+        width: 25%;
     }
 }
