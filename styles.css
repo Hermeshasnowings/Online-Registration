@@ -284,14 +284,10 @@ section {
         padding: 5px;
         display: grid;
         grid-template-columns: 1fr 2fr;
-        padding-top: 40px;
+        padding-top: 30px;
     }
 
     .left {
         padding-top: 15px;
-    }
-
-    .coninfo {
-        padding-bottom: -50px;
     }
 }
