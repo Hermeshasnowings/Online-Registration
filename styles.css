@@ -237,10 +237,6 @@ section {
         height: 50px;
     }
 
-    p {
-        padding-bottom: 10px;
-    }
-
     textarea {
         background-color: #EFF0F1;
         border-radius: 3px;
