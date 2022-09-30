@@ -122,6 +122,10 @@ section {
         font-style: italic;
     }
 
+    :focus {
+        outline: #2D3945 3px solid;
+    }
+
     ol,
     ul {
         list-style: none;
@@ -174,11 +178,13 @@ section {
 
     hr {
         width: 95%;
+
     }
 
     .sign-up {
         text-align: center;
         margin: 30px;
+        border-radius: 3px;
     }
 
     .contact-info {
@@ -206,8 +212,11 @@ section {
         width: 40%;
     }
 
-    .newsletter div {
+    .newsletter {
         width: 100%;
+        background-color: #2D3945;
+        padding: 5px;
+        border-radius: 3px;
     }
 
     button {
@@ -224,7 +233,7 @@ section {
     }
 
     p {
-        margin-bottom: 10px;
+        padding-bottom: 10px;
     }
 
     textarea {
