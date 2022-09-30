@@ -11,7 +11,6 @@ applet,
 object,
 iframe,
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -173,13 +172,17 @@ section {
     h2 {
         color: #2D3945;
         font-size: large;
-        font-weight: bold;
+        font-weight: bolder;
         padding-bottom: 20px;
     }
 
     hr {
-        width: 95%;
+        border-top: #2D3945 3px solid;
 
+    }
+
+    hr.new {
+        border-bottom: #2D3945 5px solid;
     }
 
     .sign-up {
@@ -189,10 +192,12 @@ section {
     }
 
     .contact-info {
-        margin: 20px 5px 5px 5px;
+        margin-top: 20px;
         border-radius: 3px;
         flex-direction: column;
         display: flex;
+        background-color: #2D3945;
+        padding: 5px;
     }
 
     input,
@@ -213,23 +218,23 @@ section {
     }
 
     .newsletter {
-        width: 100%;
-        background-color: #2D3945;
-        padding: 5px;
         border-radius: 3px;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+
     }
 
     button {
         font-family: 'Playfair-Display';
         background-color: #4EBBB5;
-        padding: 20px;
         width: 100%;
         font-size: x-large;
         color: white;
         border-radius: 3px;
         border-style: none;
-        display: block;
         margin-top: 10px;
+        height: 50px;
     }
 
     p {
@@ -238,7 +243,7 @@ section {
 
     textarea {
         background-color: #EFF0F1;
-        border-radius: 4px;
+        border-radius: 3px;
         border-style: none;
         width: 100%;
         resize: none;
