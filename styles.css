@@ -225,7 +225,7 @@ section {
 
     }
 
-    button {
+    .button {
         font-family: 'Playfair-Display';
         background-color: #4EBBB5;
         width: 100%;
@@ -234,7 +234,7 @@ section {
         border-radius: 3px;
         border-style: none;
         margin-top: 10px;
-        height: 50px;
+        height: 60px;
     }
 
     textarea {
