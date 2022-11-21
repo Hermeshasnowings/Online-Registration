@@ -112,7 +112,7 @@
     }
 
     .zip {
-        width: 50%;
+        width: 45%;
     }
 
     .newsletter {
@@ -188,6 +188,11 @@
         }
 
         .contact-info .zip {
-            width: 25%;
+            width: 15%;
+        }
+
+        .contact-info #state {
+            width: 66%;
+            color: gray;
         }
     }
